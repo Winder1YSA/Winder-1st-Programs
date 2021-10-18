@@ -4,25 +4,65 @@
     width: 90vw;
     height: auto;
 }
+*/
 
 .program img {
     margin: 0 auto;
-    position: fixed;
-    background-position: top right no-repeat;
-} */
+    /* position: fixed; */
+    /* background-position: top right no-repeat; */
+    height: 100vh; 
+    width: auto;
+} 
 
-.container {
+/* .container {
     overflow-x: scroll;
     height: 100vh;
-}
+} */
 
-.program {
+
+
+/* .program {
     background: url("programs/Program_example.pdf") no-repeat;
     background-attachment: scroll;
     background-size: 100%;
     height: 100vh; 
     width: auto;
-    }
+} */
+
+/* html, body {
+    height: 100%;
+    margin: 0;         
+} */
+
+/* iframe {
+    display: block;      
+    background: rgb(255, 255, 255);
+    border: none;        
+    width: 100%;
+    height: 100%;
+} */
+
+/* iframe {
+    position: fixed;
+    background: #000;
+    border: none;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+body {
+    margin: 0;            /* Reset default margin */
+    background-color: transparent;
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: rgb(255, 255, 255);
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
 
       
       
