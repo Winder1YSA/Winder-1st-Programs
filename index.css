@@ -88,13 +88,13 @@ iframe {
 
 
 
-  
+
   /* CSS for responsive iframe */
 /* ========================= */
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
 #Iframe-Master-CC-and-Rs {
-    max-width: 512px;
+    max-width: 100vw;
     max-height: 100%; 
     overflow: hidden;
   }
@@ -129,7 +129,7 @@ iframe {
   
   /* general styles */
   /* ============== */
-  .set-border {
+  /* .set-border {
     border: 5px inset #4f4f4f;
   }
   .set-box-shadow { 
@@ -146,7 +146,7 @@ iframe {
   .center-block-horiz {
     margin-left: auto !important;
     margin-right: auto !important;
-  }
+  } */
   
   
 
