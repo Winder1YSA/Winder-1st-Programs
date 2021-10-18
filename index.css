@@ -69,13 +69,14 @@ iframe {
 
 .container {
     position: relative;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
-    padding-top: 100vh; /* 16:9 Aspect Ratio */
+    /* padding-top: 100vh; */
+    height: 100vh;
   }
   
   .responsive-iframe {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
